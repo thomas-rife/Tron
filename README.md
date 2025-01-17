@@ -1,5 +1,54 @@
-# project-tron
-project-tron created by GitHub Classroom
+# Project-Tron
 
-User Manual:
-In order to run the game you should be able to just run the menu.py file. Menu.py brings up the start screen. From the start screen the user has several choices. They can press start, which uses the normal speed, and the game will start. Or they could select slow or fast (difficulty speeds), which starts the game with different speeds. A countdown timer from 3 starts before the game begins to allow the players to get ready. Then rounds will be played until one user reaches three, the winner will be displayed and then the menu screen will come back up. To exit the program simply click the close (x) on the top of the screen, which will cleanly exit the program. This is a two player game. Player one uses the arrows to control one snake, while player two uses wsad to control the other snake. Sometimes when trying to run the program I get a error: "WASAPI can't initialize audio client". This is due to the sound settings I have on my computer, so if I go into settings on my computer and change the speakers it will then work.
+**Project-Tron** is a two-player game created with Python3 and PyGame. Players control snakes on the screen and compete to reach three wins first. The game features adjustable speeds for varying levels of difficulty and an intuitive menu system.
+
+---
+
+## Getting Started
+
+To play the game, follow these steps:
+
+1. **Run the Game**:
+   - Open a terminal or file explorer and navigate to the project folder.
+   - Run the `menu.py` file using Python (`python menu.py`).
+
+2. **Menu Options**:
+   - The **Start** button begins the game at normal speed.
+   - **Slow** and **Fast** buttons adjust the game's difficulty (snake speed).
+   - A 3-second countdown allows players to prepare before the game begins.
+
+3. **Gameplay**:
+   - This is a two-player game:
+     - **Player 1**: Controls their snake using the arrow keys.
+     - **Player 2**: Controls their snake using `W`, `A`, `S`, and `D` keys.
+   - Rounds continue until one player wins three games.
+   - After each match, the winner is displayed, and the menu screen reappears.
+
+4. **Exiting the Game**:
+   - To close the program, click the close (X) button on the top of the game window.
+
+---
+
+## Troubleshooting
+
+If you encounter the error:
+`WASAPI can't initialize audio client`
+
+- This issue is related to your computer's sound settings.
+- Solution:
+  - Open your computer's settings.
+  - Change the active speakers or audio device to resolve the issue.
+
+---
+
+## Features
+
+- **Menu Screen**: Start the game or adjust the difficulty level.
+- **Countdown Timer**: A 3-second countdown prepares players before each round.
+- **Game Modes**: Choose between normal, slow, or fast speeds.
+- **Win Tracking**: The game tracks wins and displays the winner.
+- **Clean Exit**: The program exits smoothly when closed.
+
+---
+
+Enjoy playing Project-Tron and challenge your friends for ultimate bragging rights!
